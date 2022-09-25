@@ -1,44 +1,58 @@
 import React from "react";
-import { Billing, Business, CardDeal, Hero, Navbar, Stats } from "./components";
+import {
+	Billing,
+	Business,
+	CardDeal,
+	Hero,
+	Navbar,
+	Stats,
+	Testimonials,
+} from "./components";
 import styles from "./styles";
 
 const App = () => {
 	return (
 		<div className="bg-primary w-full overflow-hidden">
-			{/*--- Navbar component ---*/}
+			{/*--- Navbar section ---*/}
 			<div className={`${styles.paddingX} ${styles.flexCenter}`}>
 				<div className={`${styles.boxWidth}`}>
 					<Navbar />
 				</div>
 			</div>
-			{/*---- Hero component ---*/}
+			{/*---- Hero section ---*/}
 			<div className={`bg-primary ${styles.paddingX}`}>
 				<div className={`${styles.boxWidth}`}>
 					<Hero />
 				</div>
 			</div>
-			{/*---- Stats component ---*/}
+			{/*---- Stats section ---*/}
 			<div className={`bg-primary ${styles.paddingX}`}>
 				<div className={`${styles.boxWidth}`}>
 					<Stats />
 				</div>
 			</div>
-			{/*---- Business component ---*/}
+			{/*---- Business section ---*/}
 			<div className={`bg-primary ${styles.paddingX}`}>
 				<div className={`${styles.boxWidth}`}>
 					<Business />
 				</div>
 			</div>
-			{/*---- Billing component ---*/}
+			{/*---- Billing section ---*/}
 			<div className={`bg-primary ${styles.paddingX}`}>
 				<div className={`${styles.boxWidth}`}>
 					<Billing />
 				</div>
 			</div>
-			{/*---- Card component ---*/}
+			{/*---- Card section ---*/}
 			<div className={`bg-primary ${styles.paddingX}`}>
 				<div className={`${styles.boxWidth}`}>
 					<CardDeal />
+				</div>
+			</div>
+			{/*---- Testimonial section ---*/}
+			<div className={`bg-primary ${styles.paddingX}`}>
+				<div className={`${styles.boxWidth}`}>
+					<Testimonials />
 				</div>
 			</div>
 		</div>
