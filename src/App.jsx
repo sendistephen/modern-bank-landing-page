@@ -3,6 +3,7 @@ import {
 	Billing,
 	Business,
 	CardDeal,
+	Clients,
 	Hero,
 	Navbar,
 	Stats,
@@ -53,6 +54,12 @@ const App = () => {
 			<div className={`bg-primary ${styles.paddingX}`}>
 				<div className={`${styles.boxWidth}`}>
 					<Testimonials />
+				</div>
+			</div>
+			{/*---- Clients section ---*/}
+			<div className={`bg-primary ${styles.paddingX}`}>
+				<div className={`${styles.boxWidth}`}>
+					<Clients />
 				</div>
 			</div>
 		</div>
