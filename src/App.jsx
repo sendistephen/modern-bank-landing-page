@@ -1,5 +1,5 @@
 import React from "react";
-import { Business, Hero, Navbar, Stats } from "./components";
+import { Billing, Business, Hero, Navbar, Stats } from "./components";
 import styles from "./styles";
 
 const App = () => {
@@ -27,6 +27,12 @@ const App = () => {
 			<div className={`bg-primary ${styles.paddingX}`}>
 				<div className={`${styles.boxWidth}`}>
 					<Business />
+				</div>
+			</div>
+			{/*---- Billing component ---*/}
+			<div className={`bg-primary ${styles.paddingX}`}>
+				<div className={`${styles.boxWidth}`}>
+					<Billing />
 				</div>
 			</div>
 		</div>
