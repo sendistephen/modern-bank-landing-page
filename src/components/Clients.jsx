@@ -1,5 +1,4 @@
 import React from "react";
-import { airbnb, binance, coinbase, dropbox } from "../assets";
 import { clients } from "../constants";
 import styles from "../styles";
 

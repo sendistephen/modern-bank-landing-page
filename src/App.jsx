@@ -4,6 +4,7 @@ import {
 	Business,
 	CardDeal,
 	Clients,
+	CTA,
 	Hero,
 	Navbar,
 	Stats,
@@ -60,6 +61,12 @@ const App = () => {
 			<div className={`bg-primary ${styles.paddingX}`}>
 				<div className={`${styles.boxWidth}`}>
 					<Clients />
+				</div>
+			</div>
+			{/*---- Clients section ---*/}
+			<div className={`bg-primary ${styles.paddingX}`}>
+				<div className={`${styles.boxWidth}`}>
+					<CTA />
 				</div>
 			</div>
 		</div>
